@@ -1,0 +1,3576 @@
+{
+ "rates": {
+  "asOf": "2026-10-01T00:00:00Z",
+  "source": "demo fixed rates (not live)",
+  "eurPer": {
+   "EUR": 1,
+   "GBP": 1.16,
+   "CAD": 0.65,
+   "USD": 0.92
+  }
+ },
+ "listings": [
+  {
+   "id": "demo-berlin-1",
+   "title": "Bright studio in Neukölln",
+   "description": "Demonstration listing. 1 room(s) in Neukölln, Berlin. This is sample data, not a real advertisement.",
+   "city": "Berlin",
+   "neighborhood": "Neukölln",
+   "propertyType": "studio",
+   "rooms": 1,
+   "areaSqm": 51,
+   "rentAmount": 660,
+   "rentPeriod": "month",
+   "currency": "EUR",
+   "utilitiesIncluded": false,
+   "utilitiesMonthly": 88,
+   "amenities": [
+    "furnished",
+    "washer",
+    "parking",
+    "gym",
+    "pets-allowed",
+    "elevator"
+   ],
+   "sourceId": "demo-a",
+   "externalId": "berlin-1",
+   "sourceUrl": "https://example.invalid/demo-a/listings/berlin-1",
+   "isDemo": true,
+   "firstSeenAt": "2026-10-01T09:00:00.000Z",
+   "lastSeenAt": "2026-10-01T09:00:00.000Z",
+   "updatedAt": "2026-10-01T09:00:00.000Z"
+  },
+  {
+   "id": "demo-berlin-2",
+   "title": "Cosy apartment in Kreuzberg",
+   "description": "Demonstration listing. 1 room(s) in Kreuzberg, Berlin. This is sample data, not a real advertisement.",
+   "city": "Berlin",
+   "neighborhood": "Kreuzberg",
+   "propertyType": "apartment",
+   "rooms": 1,
+   "areaSqm": 45,
+   "rentAmount": 1400,
+   "rentPeriod": "month",
+   "currency": "EUR",
+   "utilitiesIncluded": false,
+   "utilitiesMonthly": 62,
+   "amenities": [
+    "dishwasher",
+    "parking",
+    "elevator"
+   ],
+   "sourceId": "demo-b",
+   "externalId": "berlin-2",
+   "sourceUrl": "https://example.invalid/demo-b/listings/berlin-2",
+   "isDemo": true,
+   "firstSeenAt": "2026-09-29T09:00:00.000Z",
+   "lastSeenAt": "2026-09-29T09:00:00.000Z",
+   "updatedAt": "2026-09-29T09:00:00.000Z"
+  },
+  {
+   "id": "demo-berlin-3",
+   "title": "Sunny room in Charlottenburg",
+   "description": "Demonstration listing. 1 room(s) in Charlottenburg, Berlin. This is sample data, not a real advertisement.",
+   "city": "Berlin",
+   "neighborhood": "Charlottenburg",
+   "propertyType": "room",
+   "rooms": 1,
+   "areaSqm": 14,
+   "rentAmount": 450,
+   "rentPeriod": "month",
+   "currency": "EUR",
+   "utilitiesIncluded": false,
+   "utilitiesMonthly": 118,
+   "amenities": [
+    "wifi",
+    "gym",
+    "pets-allowed",
+    "elevator"
+   ],
+   "sourceId": "demo-a",
+   "externalId": "berlin-3",
+   "sourceUrl": "https://example.invalid/demo-a/listings/berlin-3",
+   "isDemo": true,
+   "firstSeenAt": "2026-09-27T09:00:00.000Z",
+   "lastSeenAt": "2026-09-27T09:00:00.000Z",
+   "updatedAt": "2026-09-27T09:00:00.000Z"
+  },
+  {
+   "id": "demo-berlin-4",
+   "title": "Cosy apartment in Charlottenburg",
+   "description": "Demonstration listing. 3 room(s) in Charlottenburg, Berlin. This is sample data, not a real advertisement.",
+   "city": "Berlin",
+   "neighborhood": "Charlottenburg",
+   "propertyType": "apartment",
+   "rooms": 3,
+   "areaSqm": 31,
+   "rentAmount": 1910,
+   "rentPeriod": "month",
+   "currency": "EUR",
+   "utilitiesIncluded": true,
+   "utilitiesMonthly": null,
+   "amenities": [
+    "parking",
+    "gym",
+    "pets-allowed"
+   ],
+   "sourceId": "demo-b",
+   "externalId": "berlin-4",
+   "sourceUrl": "https://example.invalid/demo-b/listings/berlin-4",
+   "isDemo": true,
+   "firstSeenAt": "2026-09-25T09:00:00.000Z",
+   "lastSeenAt": "2026-09-25T09:00:00.000Z",
+   "updatedAt": "2026-09-25T09:00:00.000Z"
+  },
+  {
+   "id": "demo-berlin-5",
+   "title": "Sunny apartment in Charlottenburg",
+   "description": "Demonstration listing. 1 room(s) in Charlottenburg, Berlin. This is sample data, not a real advertisement.",
+   "city": "Berlin",
+   "neighborhood": "Charlottenburg",
+   "propertyType": "apartment",
+   "rooms": 1,
+   "areaSqm": 53,
+   "rentAmount": 1440,
+   "rentPeriod": "month",
+   "currency": "EUR",
+   "utilitiesIncluded": true,
+   "utilitiesMonthly": null,
+   "amenities": [
+    "furnished",
+    "wifi",
+    "washer"
+   ],
+   "sourceId": "demo-a",
+   "externalId": "berlin-5",
+   "sourceUrl": "https://example.invalid/demo-a/listings/berlin-5",
+   "isDemo": true,
+   "firstSeenAt": "2026-09-23T09:00:00.000Z",
+   "lastSeenAt": "2026-09-23T09:00:00.000Z",
+   "updatedAt": "2026-09-23T09:00:00.000Z"
+  },
+  {
+   "id": "demo-berlin-6",
+   "title": "Sunny studio in Neukölln",
+   "description": "Demonstration listing. 1 room(s) in Neukölln, Berlin. This is sample data, not a real advertisement.",
+   "city": "Berlin",
+   "neighborhood": "Neukölln",
+   "propertyType": "studio",
+   "rooms": 1,
+   "areaSqm": 57,
+   "rentAmount": 196,
+   "rentPeriod": "week",
+   "currency": "EUR",
+   "utilitiesIncluded": true,
+   "utilitiesMonthly": null,
+   "amenities": [
+    "furnished",
+    "wifi",
+    "balcony",
+    "pets-allowed"
+   ],
+   "sourceId": "demo-b",
+   "externalId": "berlin-6",
+   "sourceUrl": "https://example.invalid/demo-b/listings/berlin-6",
+   "isDemo": true,
+   "firstSeenAt": "2026-09-21T09:00:00.000Z",
+   "lastSeenAt": "2026-09-21T09:00:00.000Z",
+   "updatedAt": "2026-09-21T09:00:00.000Z"
+  },
+  {
+   "id": "demo-berlin-7",
+   "title": "Bright house in Charlottenburg",
+   "description": "Demonstration listing. 4 room(s) in Charlottenburg, Berlin. This is sample data, not a real advertisement.",
+   "city": "Berlin",
+   "neighborhood": "Charlottenburg",
+   "propertyType": "house",
+   "rooms": 4,
+   "areaSqm": 78,
+   "rentAmount": 2780,
+   "rentPeriod": "month",
+   "currency": "EUR",
+   "utilitiesIncluded": false,
+   "utilitiesMonthly": 61,
+   "amenities": [
+    "wifi",
+    "dishwasher",
+    "parking",
+    "gym"
+   ],
+   "sourceId": "demo-a",
+   "externalId": "berlin-7",
+   "sourceUrl": "https://example.invalid/demo-a/listings/berlin-7",
+   "isDemo": true,
+   "firstSeenAt": "2026-09-19T09:00:00.000Z",
+   "lastSeenAt": "2026-09-19T09:00:00.000Z",
+   "updatedAt": "2026-09-19T09:00:00.000Z"
+  },
+  {
+   "id": "demo-berlin-8",
+   "title": "Quiet apartment in Charlottenburg",
+   "description": "Demonstration listing. 1 room(s) in Charlottenburg, Berlin. This is sample data, not a real advertisement.",
+   "city": "Berlin",
+   "neighborhood": "Charlottenburg",
+   "propertyType": "apartment",
+   "rooms": 1,
+   "areaSqm": 33,
+   "rentAmount": 1390,
+   "rentPeriod": "month",
+   "currency": "EUR",
+   "utilitiesIncluded": true,
+   "utilitiesMonthly": null,
+   "amenities": [
+    "balcony",
+    "parking",
+    "gym",
+    "pets-allowed"
+   ],
+   "sourceId": "demo-b",
+   "externalId": "berlin-8",
+   "sourceUrl": "https://example.invalid/demo-b/listings/berlin-8",
+   "isDemo": true,
+   "firstSeenAt": "2026-09-17T09:00:00.000Z",
+   "lastSeenAt": "2026-09-17T09:00:00.000Z",
+   "updatedAt": "2026-09-17T09:00:00.000Z"
+  },
+  {
+   "id": "demo-london-1",
+   "title": "Bright studio in Hackney",
+   "description": "Demonstration listing. 1 room(s) in Hackney, London. This is sample data, not a real advertisement.",
+   "city": "London",
+   "neighborhood": "Hackney",
+   "propertyType": "studio",
+   "rooms": 1,
+   "areaSqm": 78,
+   "rentAmount": 1440,
+   "rentPeriod": "month",
+   "currency": "GBP",
+   "utilitiesIncluded": false,
+   "utilitiesMonthly": null,
+   "amenities": [
+    "furnished",
+    "gym",
+    "pets-allowed"
+   ],
+   "sourceId": "demo-a",
+   "externalId": "london-1",
+   "sourceUrl": "https://example.invalid/demo-a/listings/london-1",
+   "isDemo": true,
+   "firstSeenAt": "2026-09-30T09:00:00.000Z",
+   "lastSeenAt": "2026-09-30T09:00:00.000Z",
+   "updatedAt": "2026-09-30T09:00:00.000Z"
+  },
+  {
+   "id": "demo-london-2",
+   "title": "Quiet apartment in Brixton",
+   "description": "Demonstration listing. 1 room(s) in Brixton, London. This is sample data, not a real advertisement.",
+   "city": "London",
+   "neighborhood": "Brixton",
+   "propertyType": "apartment",
+   "rooms": 1,
+   "areaSqm": 73,
+   "rentAmount": 1950,
+   "rentPeriod": "month",
+   "currency": "GBP",
+   "utilitiesIncluded": true,
+   "utilitiesMonthly": null,
+   "amenities": [],
+   "sourceId": "demo-b",
+   "externalId": "london-2",
+   "sourceUrl": "https://example.invalid/demo-b/listings/london-2",
+   "isDemo": true,
+   "firstSeenAt": "2026-09-28T09:00:00.000Z",
+   "lastSeenAt": "2026-09-28T09:00:00.000Z",
+   "updatedAt": "2026-09-28T09:00:00.000Z"
+  },
+  {
+   "id": "demo-london-3",
+   "title": "Bright room in Camden",
+   "description": "Demonstration listing. 1 room(s) in Camden, London. This is sample data, not a real advertisement.",
+   "city": "London",
+   "neighborhood": "Camden",
+   "propertyType": "room",
+   "rooms": 1,
+   "areaSqm": 14,
+   "rentAmount": 850,
+   "rentPeriod": "month",
+   "currency": "GBP",
+   "utilitiesIncluded": false,
+   "utilitiesMonthly": 112,
+   "amenities": [
+    "wifi",
+    "washer",
+    "dishwasher",
+    "parking",
+    "gym",
+    "pets-allowed",
+    "elevator"
+   ],
+   "sourceId": "demo-a",
+   "externalId": "london-3",
+   "sourceUrl": "https://example.invalid/demo-a/listings/london-3",
+   "isDemo": true,
+   "firstSeenAt": "2026-09-26T09:00:00.000Z",
+   "lastSeenAt": "2026-09-26T09:00:00.000Z",
+   "updatedAt": "2026-09-26T09:00:00.000Z"
+  },
+  {
+   "id": "demo-london-4",
+   "title": "Quiet apartment in Greenwich",
+   "description": "Demonstration listing. 3 room(s) in Greenwich, London. This is sample data, not a real advertisement.",
+   "city": "London",
+   "neighborhood": "Greenwich",
+   "propertyType": "apartment",
+   "rooms": 3,
+   "areaSqm": 54,
+   "rentAmount": 2870,
+   "rentPeriod": "month",
+   "currency": "GBP",
+   "utilitiesIncluded": false,
+   "utilitiesMonthly": 92,
+   "amenities": [
+    "furnished",
+    "wifi",
+    "washer",
+    "parking",
+    "pets-allowed"
+   ],
+   "sourceId": "demo-b",
+   "externalId": "london-4",
+   "sourceUrl": "https://example.invalid/demo-b/listings/london-4",
+   "isDemo": true,
+   "firstSeenAt": "2026-09-24T09:00:00.000Z",
+   "lastSeenAt": "2026-09-24T09:00:00.000Z",
+   "updatedAt": "2026-09-24T09:00:00.000Z"
+  },
+  {
+   "id": "demo-london-5",
+   "title": "Sunny apartment in Brixton",
+   "description": "Demonstration listing. 2 room(s) in Brixton, London. This is sample data, not a real advertisement.",
+   "city": "London",
+   "neighborhood": "Brixton",
+   "propertyType": "apartment",
+   "rooms": 2,
+   "areaSqm": 43,
+   "rentAmount": 1990,
+   "rentPeriod": "month",
+   "currency": "GBP",
+   "utilitiesIncluded": false,
+   "utilitiesMonthly": 114,
+   "amenities": [
+    "furnished",
+    "dishwasher",
+    "balcony"
+   ],
+   "sourceId": "demo-a",
+   "externalId": "london-5",
+   "sourceUrl": "https://example.invalid/demo-a/listings/london-5",
+   "isDemo": true,
+   "firstSeenAt": "2026-09-22T09:00:00.000Z",
+   "lastSeenAt": "2026-09-22T09:00:00.000Z",
+   "updatedAt": "2026-09-22T09:00:00.000Z"
+  },
+  {
+   "id": "demo-london-6",
+   "title": "Bright studio in Brixton",
+   "description": "Demonstration listing. 1 room(s) in Brixton, London. This is sample data, not a real advertisement.",
+   "city": "London",
+   "neighborhood": "Brixton",
+   "propertyType": "studio",
+   "rooms": 1,
+   "areaSqm": 38,
+   "rentAmount": 302,
+   "rentPeriod": "week",
+   "currency": "GBP",
+   "utilitiesIncluded": false,
+   "utilitiesMonthly": 78,
+   "amenities": [
+    "balcony"
+   ],
+   "sourceId": "demo-b",
+   "externalId": "london-6",
+   "sourceUrl": "https://example.invalid/demo-b/listings/london-6",
+   "isDemo": true,
+   "firstSeenAt": "2026-09-20T09:00:00.000Z",
+   "lastSeenAt": "2026-09-20T09:00:00.000Z",
+   "updatedAt": "2026-09-20T09:00:00.000Z"
+  },
+  {
+   "id": "demo-london-7",
+   "title": "Bright house in Hackney",
+   "description": "Demonstration listing. 4 room(s) in Hackney, London. This is sample data, not a real advertisement.",
+   "city": "London",
+   "neighborhood": "Hackney",
+   "propertyType": "house",
+   "rooms": 4,
+   "areaSqm": 57,
+   "rentAmount": 5170,
+   "rentPeriod": "month",
+   "currency": "GBP",
+   "utilitiesIncluded": false,
+   "utilitiesMonthly": 142,
+   "amenities": [
+    "dishwasher",
+    "balcony",
+    "parking",
+    "gym",
+    "pets-allowed"
+   ],
+   "sourceId": "demo-a",
+   "externalId": "london-7",
+   "sourceUrl": "https://example.invalid/demo-a/listings/london-7",
+   "isDemo": true,
+   "firstSeenAt": "2026-09-18T09:00:00.000Z",
+   "lastSeenAt": "2026-09-18T09:00:00.000Z",
+   "updatedAt": "2026-09-18T09:00:00.000Z"
+  },
+  {
+   "id": "demo-london-8",
+   "title": "Modern apartment in Hackney",
+   "description": "Demonstration listing. 1 room(s) in Hackney, London. This is sample data, not a real advertisement.",
+   "city": "London",
+   "neighborhood": "Hackney",
+   "propertyType": "apartment",
+   "rooms": 1,
+   "areaSqm": 27,
+   "rentAmount": 1960,
+   "rentPeriod": "month",
+   "currency": "GBP",
+   "utilitiesIncluded": true,
+   "utilitiesMonthly": null,
+   "amenities": [
+    "parking",
+    "pets-allowed",
+    "elevator"
+   ],
+   "sourceId": "demo-b",
+   "externalId": "london-8",
+   "sourceUrl": "https://example.invalid/demo-b/listings/london-8",
+   "isDemo": true,
+   "firstSeenAt": "2026-09-16T09:00:00.000Z",
+   "lastSeenAt": "2026-09-16T09:00:00.000Z",
+   "updatedAt": "2026-09-16T09:00:00.000Z"
+  },
+  {
+   "id": "demo-toronto-1",
+   "title": "Cosy studio in Scarborough",
+   "description": "Demonstration listing. 1 room(s) in Scarborough, Toronto. This is sample data, not a real advertisement.",
+   "city": "Toronto",
+   "neighborhood": "Scarborough",
+   "propertyType": "studio",
+   "rooms": 1,
+   "areaSqm": 30,
+   "rentAmount": 1570,
+   "rentPeriod": "month",
+   "currency": "CAD",
+   "utilitiesIncluded": true,
+   "utilitiesMonthly": null,
+   "amenities": [
+    "furnished",
+    "dishwasher",
+    "pets-allowed"
+   ],
+   "sourceId": "demo-a",
+   "externalId": "toronto-1",
+   "sourceUrl": "https://example.invalid/demo-a/listings/toronto-1",
+   "isDemo": true,
+   "firstSeenAt": "2026-09-29T09:00:00.000Z",
+   "lastSeenAt": "2026-09-29T09:00:00.000Z",
+   "updatedAt": "2026-09-29T09:00:00.000Z"
+  },
+  {
+   "id": "demo-toronto-2",
+   "title": "Cosy apartment in The Annex",
+   "description": "Demonstration listing. 3 room(s) in The Annex, Toronto. This is sample data, not a real advertisement.",
+   "city": "Toronto",
+   "neighborhood": "The Annex",
+   "propertyType": "apartment",
+   "rooms": 3,
+   "areaSqm": 30,
+   "rentAmount": 3700,
+   "rentPeriod": "month",
+   "currency": "CAD",
+   "utilitiesIncluded": true,
+   "utilitiesMonthly": null,
+   "amenities": [
+    "parking",
+    "elevator"
+   ],
+   "sourceId": "demo-b",
+   "externalId": "toronto-2",
+   "sourceUrl": "https://example.invalid/demo-b/listings/toronto-2",
+   "isDemo": true,
+   "firstSeenAt": "2026-09-27T09:00:00.000Z",
+   "lastSeenAt": "2026-09-27T09:00:00.000Z",
+   "updatedAt": "2026-09-27T09:00:00.000Z"
+  },
+  {
+   "id": "demo-toronto-3",
+   "title": "Sunny room in Scarborough",
+   "description": "Demonstration listing. 1 room(s) in Scarborough, Toronto. This is sample data, not a real advertisement.",
+   "city": "Toronto",
+   "neighborhood": "Scarborough",
+   "propertyType": "room",
+   "rooms": 1,
+   "areaSqm": 14,
+   "rentAmount": 1130,
+   "rentPeriod": "month",
+   "currency": "CAD",
+   "utilitiesIncluded": true,
+   "utilitiesMonthly": null,
+   "amenities": [
+    "furnished",
+    "balcony",
+    "gym",
+    "pets-allowed"
+   ],
+   "sourceId": "demo-a",
+   "externalId": "toronto-3",
+   "sourceUrl": "https://example.invalid/demo-a/listings/toronto-3",
+   "isDemo": true,
+   "firstSeenAt": "2026-09-25T09:00:00.000Z",
+   "lastSeenAt": "2026-09-25T09:00:00.000Z",
+   "updatedAt": "2026-09-25T09:00:00.000Z"
+  },
+  {
+   "id": "demo-toronto-4",
+   "title": "Modern apartment in The Annex",
+   "description": "Demonstration listing. 1 room(s) in The Annex, Toronto. This is sample data, not a real advertisement.",
+   "city": "Toronto",
+   "neighborhood": "The Annex",
+   "propertyType": "apartment",
+   "rooms": 1,
+   "areaSqm": 67,
+   "rentAmount": 2970,
+   "rentPeriod": "month",
+   "currency": "CAD",
+   "utilitiesIncluded": true,
+   "utilitiesMonthly": null,
+   "amenities": [
+    "furnished",
+    "washer",
+    "gym"
+   ],
+   "sourceId": "demo-b",
+   "externalId": "toronto-4",
+   "sourceUrl": "https://example.invalid/demo-b/listings/toronto-4",
+   "isDemo": true,
+   "firstSeenAt": "2026-09-23T09:00:00.000Z",
+   "lastSeenAt": "2026-09-23T09:00:00.000Z",
+   "updatedAt": "2026-09-23T09:00:00.000Z"
+  },
+  {
+   "id": "demo-toronto-5",
+   "title": "Quiet apartment in Liberty Village",
+   "description": "Demonstration listing. 2 room(s) in Liberty Village, Toronto. This is sample data, not a real advertisement.",
+   "city": "Toronto",
+   "neighborhood": "Liberty Village",
+   "propertyType": "apartment",
+   "rooms": 2,
+   "areaSqm": 32,
+   "rentAmount": 3330,
+   "rentPeriod": "month",
+   "currency": "CAD",
+   "utilitiesIncluded": false,
+   "utilitiesMonthly": 83,
+   "amenities": [
+    "furnished",
+    "washer",
+    "dishwasher",
+    "balcony",
+    "parking",
+    "pets-allowed",
+    "elevator"
+   ],
+   "sourceId": "demo-a",
+   "externalId": "toronto-5",
+   "sourceUrl": "https://example.invalid/demo-a/listings/toronto-5",
+   "isDemo": true,
+   "firstSeenAt": "2026-09-21T09:00:00.000Z",
+   "lastSeenAt": "2026-09-21T09:00:00.000Z",
+   "updatedAt": "2026-09-21T09:00:00.000Z"
+  },
+  {
+   "id": "demo-toronto-6",
+   "title": "Cosy studio in Scarborough",
+   "description": "Demonstration listing. 1 room(s) in Scarborough, Toronto. This is sample data, not a real advertisement.",
+   "city": "Toronto",
+   "neighborhood": "Scarborough",
+   "propertyType": "studio",
+   "rooms": 1,
+   "areaSqm": 66,
+   "rentAmount": 427,
+   "rentPeriod": "week",
+   "currency": "CAD",
+   "utilitiesIncluded": false,
+   "utilitiesMonthly": 86,
+   "amenities": [
+    "dishwasher",
+    "parking",
+    "elevator"
+   ],
+   "sourceId": "demo-b",
+   "externalId": "toronto-6",
+   "sourceUrl": "https://example.invalid/demo-b/listings/toronto-6",
+   "isDemo": true,
+   "firstSeenAt": "2026-09-19T09:00:00.000Z",
+   "lastSeenAt": "2026-09-19T09:00:00.000Z",
+   "updatedAt": "2026-09-19T09:00:00.000Z"
+  },
+  {
+   "id": "demo-toronto-7",
+   "title": "Spacious house in The Annex",
+   "description": "Demonstration listing. 4 room(s) in The Annex, Toronto. This is sample data, not a real advertisement.",
+   "city": "Toronto",
+   "neighborhood": "The Annex",
+   "propertyType": "house",
+   "rooms": 4,
+   "areaSqm": 58,
+   "rentAmount": 5440,
+   "rentPeriod": "month",
+   "currency": "CAD",
+   "utilitiesIncluded": true,
+   "utilitiesMonthly": null,
+   "amenities": [
+    "wifi",
+    "dishwasher"
+   ],
+   "sourceId": "demo-a",
+   "externalId": "toronto-7",
+   "sourceUrl": "https://example.invalid/demo-a/listings/toronto-7",
+   "isDemo": true,
+   "firstSeenAt": "2026-09-17T09:00:00.000Z",
+   "lastSeenAt": "2026-09-17T09:00:00.000Z",
+   "updatedAt": "2026-09-17T09:00:00.000Z"
+  },
+  {
+   "id": "demo-toronto-8",
+   "title": "Bright apartment in Liberty Village",
+   "description": "Demonstration listing. 2 room(s) in Liberty Village, Toronto. This is sample data, not a real advertisement.",
+   "city": "Toronto",
+   "neighborhood": "Liberty Village",
+   "propertyType": "apartment",
+   "rooms": 2,
+   "areaSqm": 63,
+   "rentAmount": 3110,
+   "rentPeriod": "month",
+   "currency": "CAD",
+   "utilitiesIncluded": true,
+   "utilitiesMonthly": null,
+   "amenities": [
+    "washer",
+    "dishwasher",
+    "gym",
+    "elevator"
+   ],
+   "sourceId": "demo-b",
+   "externalId": "toronto-8",
+   "sourceUrl": "https://example.invalid/demo-b/listings/toronto-8",
+   "isDemo": true,
+   "firstSeenAt": "2026-09-15T09:00:00.000Z",
+   "lastSeenAt": "2026-09-15T09:00:00.000Z",
+   "updatedAt": "2026-09-15T09:00:00.000Z"
+  },
+  {
+   "id": "demo-berlin-dup",
+   "title": "Cosy apartment near Kreuzberg 1 rooms",
+   "description": "Demonstration listing. 1 room(s) in Kreuzberg, Berlin. This is sample data, not a real advertisement.",
+   "city": "Berlin",
+   "neighborhood": "Kreuzberg",
+   "propertyType": "apartment",
+   "rooms": 1,
+   "areaSqm": 45,
+   "rentAmount": 1428,
+   "rentPeriod": "month",
+   "currency": "EUR",
+   "utilitiesIncluded": false,
+   "utilitiesMonthly": 62,
+   "amenities": [
+    "dishwasher",
+    "parking",
+    "elevator"
+   ],
+   "sourceId": "demo-a",
+   "externalId": "berlin-dup",
+   "sourceUrl": "https://example.invalid/demo-a/listings/berlin-dup",
+   "isDemo": true,
+   "firstSeenAt": "2026-09-30T09:00:00.000Z",
+   "lastSeenAt": "2026-09-30T09:00:00.000Z",
+   "updatedAt": "2026-09-30T09:00:00.000Z"
+  },
+  {
+   "id": "demo-london-dup",
+   "title": "Quiet apartment near Brixton 1 rooms",
+   "description": "Demonstration listing. 1 room(s) in Brixton, London. This is sample data, not a real advertisement.",
+   "city": "London",
+   "neighborhood": "Brixton",
+   "propertyType": "apartment",
+   "rooms": 1,
+   "areaSqm": 73,
+   "rentAmount": 1989,
+   "rentPeriod": "month",
+   "currency": "GBP",
+   "utilitiesIncluded": true,
+   "utilitiesMonthly": null,
+   "amenities": [],
+   "sourceId": "demo-a",
+   "externalId": "london-dup",
+   "sourceUrl": "https://example.invalid/demo-a/listings/london-dup",
+   "isDemo": true,
+   "firstSeenAt": "2026-09-29T09:00:00.000Z",
+   "lastSeenAt": "2026-09-29T09:00:00.000Z",
+   "updatedAt": "2026-09-29T09:00:00.000Z"
+  },
+  {
+   "id": "demo-toronto-dup",
+   "title": "Cosy apartment near The Annex 3 rooms",
+   "description": "Demonstration listing. 3 room(s) in The Annex, Toronto. This is sample data, not a real advertisement.",
+   "city": "Toronto",
+   "neighborhood": "The Annex",
+   "propertyType": "apartment",
+   "rooms": 3,
+   "areaSqm": 30,
+   "rentAmount": 3774,
+   "rentPeriod": "month",
+   "currency": "CAD",
+   "utilitiesIncluded": true,
+   "utilitiesMonthly": null,
+   "amenities": [
+    "parking",
+    "elevator"
+   ],
+   "sourceId": "demo-a",
+   "externalId": "toronto-dup",
+   "sourceUrl": "https://example.invalid/demo-a/listings/toronto-dup",
+   "isDemo": true,
+   "firstSeenAt": "2026-09-28T09:00:00.000Z",
+   "lastSeenAt": "2026-09-28T09:00:00.000Z",
+   "updatedAt": "2026-09-28T09:00:00.000Z"
+  }
+ ],
+ "costs": [
+  {
+   "id": "demo-berlin-1",
+   "withRates": {
+    "EUR": {
+     "amount": 748,
+     "currency": "EUR",
+     "converted": false,
+     "native": {
+      "amount": 748,
+      "currency": "EUR"
+     },
+     "rentMonthly": 660,
+     "utilitiesMonthly": 88,
+     "utilitiesKnown": true
+    },
+    "GBP": {
+     "amount": 644.83,
+     "currency": "GBP",
+     "converted": true,
+     "rate": 0.862069,
+     "rateAsOf": "2026-10-01T00:00:00Z",
+     "rateSource": "demo fixed rates (not live)",
+     "native": {
+      "amount": 748,
+      "currency": "EUR"
+     },
+     "rentMonthly": 660,
+     "utilitiesMonthly": 88,
+     "utilitiesKnown": true
+    },
+    "CAD": {
+     "amount": 1150.77,
+     "currency": "CAD",
+     "converted": true,
+     "rate": 1.538462,
+     "rateAsOf": "2026-10-01T00:00:00Z",
+     "rateSource": "demo fixed rates (not live)",
+     "native": {
+      "amount": 748,
+      "currency": "EUR"
+     },
+     "rentMonthly": 660,
+     "utilitiesMonthly": 88,
+     "utilitiesKnown": true
+    },
+    "USD": {
+     "amount": 813.04,
+     "currency": "USD",
+     "converted": true,
+     "rate": 1.086957,
+     "rateAsOf": "2026-10-01T00:00:00Z",
+     "rateSource": "demo fixed rates (not live)",
+     "native": {
+      "amount": 748,
+      "currency": "EUR"
+     },
+     "rentMonthly": 660,
+     "utilitiesMonthly": 88,
+     "utilitiesKnown": true
+    }
+   },
+   "withoutRates": {
+    "EUR": {
+     "amount": 748,
+     "currency": "EUR",
+     "converted": false,
+     "native": {
+      "amount": 748,
+      "currency": "EUR"
+     },
+     "rentMonthly": 660,
+     "utilitiesMonthly": 88,
+     "utilitiesKnown": true
+    },
+    "GBP": null,
+    "CAD": null,
+    "USD": null
+   }
+  },
+  {
+   "id": "demo-berlin-2",
+   "withRates": {
+    "EUR": {
+     "amount": 1462,
+     "currency": "EUR",
+     "converted": false,
+     "native": {
+      "amount": 1462,
+      "currency": "EUR"
+     },
+     "rentMonthly": 1400,
+     "utilitiesMonthly": 62,
+     "utilitiesKnown": true
+    },
+    "GBP": {
+     "amount": 1260.34,
+     "currency": "GBP",
+     "converted": true,
+     "rate": 0.862069,
+     "rateAsOf": "2026-10-01T00:00:00Z",
+     "rateSource": "demo fixed rates (not live)",
+     "native": {
+      "amount": 1462,
+      "currency": "EUR"
+     },
+     "rentMonthly": 1400,
+     "utilitiesMonthly": 62,
+     "utilitiesKnown": true
+    },
+    "CAD": {
+     "amount": 2249.23,
+     "currency": "CAD",
+     "converted": true,
+     "rate": 1.538462,
+     "rateAsOf": "2026-10-01T00:00:00Z",
+     "rateSource": "demo fixed rates (not live)",
+     "native": {
+      "amount": 1462,
+      "currency": "EUR"
+     },
+     "rentMonthly": 1400,
+     "utilitiesMonthly": 62,
+     "utilitiesKnown": true
+    },
+    "USD": {
+     "amount": 1589.13,
+     "currency": "USD",
+     "converted": true,
+     "rate": 1.086957,
+     "rateAsOf": "2026-10-01T00:00:00Z",
+     "rateSource": "demo fixed rates (not live)",
+     "native": {
+      "amount": 1462,
+      "currency": "EUR"
+     },
+     "rentMonthly": 1400,
+     "utilitiesMonthly": 62,
+     "utilitiesKnown": true
+    }
+   },
+   "withoutRates": {
+    "EUR": {
+     "amount": 1462,
+     "currency": "EUR",
+     "converted": false,
+     "native": {
+      "amount": 1462,
+      "currency": "EUR"
+     },
+     "rentMonthly": 1400,
+     "utilitiesMonthly": 62,
+     "utilitiesKnown": true
+    },
+    "GBP": null,
+    "CAD": null,
+    "USD": null
+   }
+  },
+  {
+   "id": "demo-berlin-3",
+   "withRates": {
+    "EUR": {
+     "amount": 568,
+     "currency": "EUR",
+     "converted": false,
+     "native": {
+      "amount": 568,
+      "currency": "EUR"
+     },
+     "rentMonthly": 450,
+     "utilitiesMonthly": 118,
+     "utilitiesKnown": true
+    },
+    "GBP": {
+     "amount": 489.66,
+     "currency": "GBP",
+     "converted": true,
+     "rate": 0.862069,
+     "rateAsOf": "2026-10-01T00:00:00Z",
+     "rateSource": "demo fixed rates (not live)",
+     "native": {
+      "amount": 568,
+      "currency": "EUR"
+     },
+     "rentMonthly": 450,
+     "utilitiesMonthly": 118,
+     "utilitiesKnown": true
+    },
+    "CAD": {
+     "amount": 873.85,
+     "currency": "CAD",
+     "converted": true,
+     "rate": 1.538462,
+     "rateAsOf": "2026-10-01T00:00:00Z",
+     "rateSource": "demo fixed rates (not live)",
+     "native": {
+      "amount": 568,
+      "currency": "EUR"
+     },
+     "rentMonthly": 450,
+     "utilitiesMonthly": 118,
+     "utilitiesKnown": true
+    },
+    "USD": {
+     "amount": 617.39,
+     "currency": "USD",
+     "converted": true,
+     "rate": 1.086957,
+     "rateAsOf": "2026-10-01T00:00:00Z",
+     "rateSource": "demo fixed rates (not live)",
+     "native": {
+      "amount": 568,
+      "currency": "EUR"
+     },
+     "rentMonthly": 450,
+     "utilitiesMonthly": 118,
+     "utilitiesKnown": true
+    }
+   },
+   "withoutRates": {
+    "EUR": {
+     "amount": 568,
+     "currency": "EUR",
+     "converted": false,
+     "native": {
+      "amount": 568,
+      "currency": "EUR"
+     },
+     "rentMonthly": 450,
+     "utilitiesMonthly": 118,
+     "utilitiesKnown": true
+    },
+    "GBP": null,
+    "CAD": null,
+    "USD": null
+   }
+  },
+  {
+   "id": "demo-berlin-4",
+   "withRates": {
+    "EUR": {
+     "amount": 1910,
+     "currency": "EUR",
+     "converted": false,
+     "native": {
+      "amount": 1910,
+      "currency": "EUR"
+     },
+     "rentMonthly": 1910,
+     "utilitiesMonthly": 0,
+     "utilitiesKnown": true
+    },
+    "GBP": {
+     "amount": 1646.55,
+     "currency": "GBP",
+     "converted": true,
+     "rate": 0.862069,
+     "rateAsOf": "2026-10-01T00:00:00Z",
+     "rateSource": "demo fixed rates (not live)",
+     "native": {
+      "amount": 1910,
+      "currency": "EUR"
+     },
+     "rentMonthly": 1910,
+     "utilitiesMonthly": 0,
+     "utilitiesKnown": true
+    },
+    "CAD": {
+     "amount": 2938.46,
+     "currency": "CAD",
+     "converted": true,
+     "rate": 1.538462,
+     "rateAsOf": "2026-10-01T00:00:00Z",
+     "rateSource": "demo fixed rates (not live)",
+     "native": {
+      "amount": 1910,
+      "currency": "EUR"
+     },
+     "rentMonthly": 1910,
+     "utilitiesMonthly": 0,
+     "utilitiesKnown": true
+    },
+    "USD": {
+     "amount": 2076.09,
+     "currency": "USD",
+     "converted": true,
+     "rate": 1.086957,
+     "rateAsOf": "2026-10-01T00:00:00Z",
+     "rateSource": "demo fixed rates (not live)",
+     "native": {
+      "amount": 1910,
+      "currency": "EUR"
+     },
+     "rentMonthly": 1910,
+     "utilitiesMonthly": 0,
+     "utilitiesKnown": true
+    }
+   },
+   "withoutRates": {
+    "EUR": {
+     "amount": 1910,
+     "currency": "EUR",
+     "converted": false,
+     "native": {
+      "amount": 1910,
+      "currency": "EUR"
+     },
+     "rentMonthly": 1910,
+     "utilitiesMonthly": 0,
+     "utilitiesKnown": true
+    },
+    "GBP": null,
+    "CAD": null,
+    "USD": null
+   }
+  },
+  {
+   "id": "demo-berlin-5",
+   "withRates": {
+    "EUR": {
+     "amount": 1440,
+     "currency": "EUR",
+     "converted": false,
+     "native": {
+      "amount": 1440,
+      "currency": "EUR"
+     },
+     "rentMonthly": 1440,
+     "utilitiesMonthly": 0,
+     "utilitiesKnown": true
+    },
+    "GBP": {
+     "amount": 1241.38,
+     "currency": "GBP",
+     "converted": true,
+     "rate": 0.862069,
+     "rateAsOf": "2026-10-01T00:00:00Z",
+     "rateSource": "demo fixed rates (not live)",
+     "native": {
+      "amount": 1440,
+      "currency": "EUR"
+     },
+     "rentMonthly": 1440,
+     "utilitiesMonthly": 0,
+     "utilitiesKnown": true
+    },
+    "CAD": {
+     "amount": 2215.38,
+     "currency": "CAD",
+     "converted": true,
+     "rate": 1.538462,
+     "rateAsOf": "2026-10-01T00:00:00Z",
+     "rateSource": "demo fixed rates (not live)",
+     "native": {
+      "amount": 1440,
+      "currency": "EUR"
+     },
+     "rentMonthly": 1440,
+     "utilitiesMonthly": 0,
+     "utilitiesKnown": true
+    },
+    "USD": {
+     "amount": 1565.22,
+     "currency": "USD",
+     "converted": true,
+     "rate": 1.086957,
+     "rateAsOf": "2026-10-01T00:00:00Z",
+     "rateSource": "demo fixed rates (not live)",
+     "native": {
+      "amount": 1440,
+      "currency": "EUR"
+     },
+     "rentMonthly": 1440,
+     "utilitiesMonthly": 0,
+     "utilitiesKnown": true
+    }
+   },
+   "withoutRates": {
+    "EUR": {
+     "amount": 1440,
+     "currency": "EUR",
+     "converted": false,
+     "native": {
+      "amount": 1440,
+      "currency": "EUR"
+     },
+     "rentMonthly": 1440,
+     "utilitiesMonthly": 0,
+     "utilitiesKnown": true
+    },
+    "GBP": null,
+    "CAD": null,
+    "USD": null
+   }
+  },
+  {
+   "id": "demo-berlin-6",
+   "withRates": {
+    "EUR": {
+     "amount": 849.33,
+     "currency": "EUR",
+     "converted": false,
+     "native": {
+      "amount": 849.33,
+      "currency": "EUR"
+     },
+     "rentMonthly": 849.33,
+     "utilitiesMonthly": 0,
+     "utilitiesKnown": true
+    },
+    "GBP": {
+     "amount": 732.18,
+     "currency": "GBP",
+     "converted": true,
+     "rate": 0.862069,
+     "rateAsOf": "2026-10-01T00:00:00Z",
+     "rateSource": "demo fixed rates (not live)",
+     "native": {
+      "amount": 849.33,
+      "currency": "EUR"
+     },
+     "rentMonthly": 849.33,
+     "utilitiesMonthly": 0,
+     "utilitiesKnown": true
+    },
+    "CAD": {
+     "amount": 1306.66,
+     "currency": "CAD",
+     "converted": true,
+     "rate": 1.538462,
+     "rateAsOf": "2026-10-01T00:00:00Z",
+     "rateSource": "demo fixed rates (not live)",
+     "native": {
+      "amount": 849.33,
+      "currency": "EUR"
+     },
+     "rentMonthly": 849.33,
+     "utilitiesMonthly": 0,
+     "utilitiesKnown": true
+    },
+    "USD": {
+     "amount": 923.18,
+     "currency": "USD",
+     "converted": true,
+     "rate": 1.086957,
+     "rateAsOf": "2026-10-01T00:00:00Z",
+     "rateSource": "demo fixed rates (not live)",
+     "native": {
+      "amount": 849.33,
+      "currency": "EUR"
+     },
+     "rentMonthly": 849.33,
+     "utilitiesMonthly": 0,
+     "utilitiesKnown": true
+    }
+   },
+   "withoutRates": {
+    "EUR": {
+     "amount": 849.33,
+     "currency": "EUR",
+     "converted": false,
+     "native": {
+      "amount": 849.33,
+      "currency": "EUR"
+     },
+     "rentMonthly": 849.33,
+     "utilitiesMonthly": 0,
+     "utilitiesKnown": true
+    },
+    "GBP": null,
+    "CAD": null,
+    "USD": null
+   }
+  },
+  {
+   "id": "demo-berlin-7",
+   "withRates": {
+    "EUR": {
+     "amount": 2841,
+     "currency": "EUR",
+     "converted": false,
+     "native": {
+      "amount": 2841,
+      "currency": "EUR"
+     },
+     "rentMonthly": 2780,
+     "utilitiesMonthly": 61,
+     "utilitiesKnown": true
+    },
+    "GBP": {
+     "amount": 2449.14,
+     "currency": "GBP",
+     "converted": true,
+     "rate": 0.862069,
+     "rateAsOf": "2026-10-01T00:00:00Z",
+     "rateSource": "demo fixed rates (not live)",
+     "native": {
+      "amount": 2841,
+      "currency": "EUR"
+     },
+     "rentMonthly": 2780,
+     "utilitiesMonthly": 61,
+     "utilitiesKnown": true
+    },
+    "CAD": {
+     "amount": 4370.77,
+     "currency": "CAD",
+     "converted": true,
+     "rate": 1.538462,
+     "rateAsOf": "2026-10-01T00:00:00Z",
+     "rateSource": "demo fixed rates (not live)",
+     "native": {
+      "amount": 2841,
+      "currency": "EUR"
+     },
+     "rentMonthly": 2780,
+     "utilitiesMonthly": 61,
+     "utilitiesKnown": true
+    },
+    "USD": {
+     "amount": 3088.04,
+     "currency": "USD",
+     "converted": true,
+     "rate": 1.086957,
+     "rateAsOf": "2026-10-01T00:00:00Z",
+     "rateSource": "demo fixed rates (not live)",
+     "native": {
+      "amount": 2841,
+      "currency": "EUR"
+     },
+     "rentMonthly": 2780,
+     "utilitiesMonthly": 61,
+     "utilitiesKnown": true
+    }
+   },
+   "withoutRates": {
+    "EUR": {
+     "amount": 2841,
+     "currency": "EUR",
+     "converted": false,
+     "native": {
+      "amount": 2841,
+      "currency": "EUR"
+     },
+     "rentMonthly": 2780,
+     "utilitiesMonthly": 61,
+     "utilitiesKnown": true
+    },
+    "GBP": null,
+    "CAD": null,
+    "USD": null
+   }
+  },
+  {
+   "id": "demo-berlin-8",
+   "withRates": {
+    "EUR": {
+     "amount": 1390,
+     "currency": "EUR",
+     "converted": false,
+     "native": {
+      "amount": 1390,
+      "currency": "EUR"
+     },
+     "rentMonthly": 1390,
+     "utilitiesMonthly": 0,
+     "utilitiesKnown": true
+    },
+    "GBP": {
+     "amount": 1198.28,
+     "currency": "GBP",
+     "converted": true,
+     "rate": 0.862069,
+     "rateAsOf": "2026-10-01T00:00:00Z",
+     "rateSource": "demo fixed rates (not live)",
+     "native": {
+      "amount": 1390,
+      "currency": "EUR"
+     },
+     "rentMonthly": 1390,
+     "utilitiesMonthly": 0,
+     "utilitiesKnown": true
+    },
+    "CAD": {
+     "amount": 2138.46,
+     "currency": "CAD",
+     "converted": true,
+     "rate": 1.538462,
+     "rateAsOf": "2026-10-01T00:00:00Z",
+     "rateSource": "demo fixed rates (not live)",
+     "native": {
+      "amount": 1390,
+      "currency": "EUR"
+     },
+     "rentMonthly": 1390,
+     "utilitiesMonthly": 0,
+     "utilitiesKnown": true
+    },
+    "USD": {
+     "amount": 1510.87,
+     "currency": "USD",
+     "converted": true,
+     "rate": 1.086957,
+     "rateAsOf": "2026-10-01T00:00:00Z",
+     "rateSource": "demo fixed rates (not live)",
+     "native": {
+      "amount": 1390,
+      "currency": "EUR"
+     },
+     "rentMonthly": 1390,
+     "utilitiesMonthly": 0,
+     "utilitiesKnown": true
+    }
+   },
+   "withoutRates": {
+    "EUR": {
+     "amount": 1390,
+     "currency": "EUR",
+     "converted": false,
+     "native": {
+      "amount": 1390,
+      "currency": "EUR"
+     },
+     "rentMonthly": 1390,
+     "utilitiesMonthly": 0,
+     "utilitiesKnown": true
+    },
+    "GBP": null,
+    "CAD": null,
+    "USD": null
+   }
+  },
+  {
+   "id": "demo-london-1",
+   "withRates": {
+    "EUR": {
+     "amount": 1670.4,
+     "currency": "EUR",
+     "converted": true,
+     "rate": 1.16,
+     "rateAsOf": "2026-10-01T00:00:00Z",
+     "rateSource": "demo fixed rates (not live)",
+     "native": {
+      "amount": 1440,
+      "currency": "GBP"
+     },
+     "rentMonthly": 1440,
+     "utilitiesMonthly": 0,
+     "utilitiesKnown": false
+    },
+    "GBP": {
+     "amount": 1440,
+     "currency": "GBP",
+     "converted": false,
+     "native": {
+      "amount": 1440,
+      "currency": "GBP"
+     },
+     "rentMonthly": 1440,
+     "utilitiesMonthly": 0,
+     "utilitiesKnown": false
+    },
+    "CAD": {
+     "amount": 2569.85,
+     "currency": "CAD",
+     "converted": true,
+     "rate": 1.784615,
+     "rateAsOf": "2026-10-01T00:00:00Z",
+     "rateSource": "demo fixed rates (not live)",
+     "native": {
+      "amount": 1440,
+      "currency": "GBP"
+     },
+     "rentMonthly": 1440,
+     "utilitiesMonthly": 0,
+     "utilitiesKnown": false
+    },
+    "USD": {
+     "amount": 1815.65,
+     "currency": "USD",
+     "converted": true,
+     "rate": 1.26087,
+     "rateAsOf": "2026-10-01T00:00:00Z",
+     "rateSource": "demo fixed rates (not live)",
+     "native": {
+      "amount": 1440,
+      "currency": "GBP"
+     },
+     "rentMonthly": 1440,
+     "utilitiesMonthly": 0,
+     "utilitiesKnown": false
+    }
+   },
+   "withoutRates": {
+    "EUR": null,
+    "GBP": {
+     "amount": 1440,
+     "currency": "GBP",
+     "converted": false,
+     "native": {
+      "amount": 1440,
+      "currency": "GBP"
+     },
+     "rentMonthly": 1440,
+     "utilitiesMonthly": 0,
+     "utilitiesKnown": false
+    },
+    "CAD": null,
+    "USD": null
+   }
+  },
+  {
+   "id": "demo-london-2",
+   "withRates": {
+    "EUR": {
+     "amount": 2262,
+     "currency": "EUR",
+     "converted": true,
+     "rate": 1.16,
+     "rateAsOf": "2026-10-01T00:00:00Z",
+     "rateSource": "demo fixed rates (not live)",
+     "native": {
+      "amount": 1950,
+      "currency": "GBP"
+     },
+     "rentMonthly": 1950,
+     "utilitiesMonthly": 0,
+     "utilitiesKnown": true
+    },
+    "GBP": {
+     "amount": 1950,
+     "currency": "GBP",
+     "converted": false,
+     "native": {
+      "amount": 1950,
+      "currency": "GBP"
+     },
+     "rentMonthly": 1950,
+     "utilitiesMonthly": 0,
+     "utilitiesKnown": true
+    },
+    "CAD": {
+     "amount": 3480,
+     "currency": "CAD",
+     "converted": true,
+     "rate": 1.784615,
+     "rateAsOf": "2026-10-01T00:00:00Z",
+     "rateSource": "demo fixed rates (not live)",
+     "native": {
+      "amount": 1950,
+      "currency": "GBP"
+     },
+     "rentMonthly": 1950,
+     "utilitiesMonthly": 0,
+     "utilitiesKnown": true
+    },
+    "USD": {
+     "amount": 2458.7,
+     "currency": "USD",
+     "converted": true,
+     "rate": 1.26087,
+     "rateAsOf": "2026-10-01T00:00:00Z",
+     "rateSource": "demo fixed rates (not live)",
+     "native": {
+      "amount": 1950,
+      "currency": "GBP"
+     },
+     "rentMonthly": 1950,
+     "utilitiesMonthly": 0,
+     "utilitiesKnown": true
+    }
+   },
+   "withoutRates": {
+    "EUR": null,
+    "GBP": {
+     "amount": 1950,
+     "currency": "GBP",
+     "converted": false,
+     "native": {
+      "amount": 1950,
+      "currency": "GBP"
+     },
+     "rentMonthly": 1950,
+     "utilitiesMonthly": 0,
+     "utilitiesKnown": true
+    },
+    "CAD": null,
+    "USD": null
+   }
+  },
+  {
+   "id": "demo-london-3",
+   "withRates": {
+    "EUR": {
+     "amount": 1115.92,
+     "currency": "EUR",
+     "converted": true,
+     "rate": 1.16,
+     "rateAsOf": "2026-10-01T00:00:00Z",
+     "rateSource": "demo fixed rates (not live)",
+     "native": {
+      "amount": 962,
+      "currency": "GBP"
+     },
+     "rentMonthly": 850,
+     "utilitiesMonthly": 112,
+     "utilitiesKnown": true
+    },
+    "GBP": {
+     "amount": 962,
+     "currency": "GBP",
+     "converted": false,
+     "native": {
+      "amount": 962,
+      "currency": "GBP"
+     },
+     "rentMonthly": 850,
+     "utilitiesMonthly": 112,
+     "utilitiesKnown": true
+    },
+    "CAD": {
+     "amount": 1716.8,
+     "currency": "CAD",
+     "converted": true,
+     "rate": 1.784615,
+     "rateAsOf": "2026-10-01T00:00:00Z",
+     "rateSource": "demo fixed rates (not live)",
+     "native": {
+      "amount": 962,
+      "currency": "GBP"
+     },
+     "rentMonthly": 850,
+     "utilitiesMonthly": 112,
+     "utilitiesKnown": true
+    },
+    "USD": {
+     "amount": 1212.96,
+     "currency": "USD",
+     "converted": true,
+     "rate": 1.26087,
+     "rateAsOf": "2026-10-01T00:00:00Z",
+     "rateSource": "demo fixed rates (not live)",
+     "native": {
+      "amount": 962,
+      "currency": "GBP"
+     },
+     "rentMonthly": 850,
+     "utilitiesMonthly": 112,
+     "utilitiesKnown": true
+    }
+   },
+   "withoutRates": {
+    "EUR": null,
+    "GBP": {
+     "amount": 962,
+     "currency": "GBP",
+     "converted": false,
+     "native": {
+      "amount": 962,
+      "currency": "GBP"
+     },
+     "rentMonthly": 850,
+     "utilitiesMonthly": 112,
+     "utilitiesKnown": true
+    },
+    "CAD": null,
+    "USD": null
+   }
+  },
+  {
+   "id": "demo-london-4",
+   "withRates": {
+    "EUR": {
+     "amount": 3435.92,
+     "currency": "EUR",
+     "converted": true,
+     "rate": 1.16,
+     "rateAsOf": "2026-10-01T00:00:00Z",
+     "rateSource": "demo fixed rates (not live)",
+     "native": {
+      "amount": 2962,
+      "currency": "GBP"
+     },
+     "rentMonthly": 2870,
+     "utilitiesMonthly": 92,
+     "utilitiesKnown": true
+    },
+    "GBP": {
+     "amount": 2962,
+     "currency": "GBP",
+     "converted": false,
+     "native": {
+      "amount": 2962,
+      "currency": "GBP"
+     },
+     "rentMonthly": 2870,
+     "utilitiesMonthly": 92,
+     "utilitiesKnown": true
+    },
+    "CAD": {
+     "amount": 5286.03,
+     "currency": "CAD",
+     "converted": true,
+     "rate": 1.784615,
+     "rateAsOf": "2026-10-01T00:00:00Z",
+     "rateSource": "demo fixed rates (not live)",
+     "native": {
+      "amount": 2962,
+      "currency": "GBP"
+     },
+     "rentMonthly": 2870,
+     "utilitiesMonthly": 92,
+     "utilitiesKnown": true
+    },
+    "USD": {
+     "amount": 3734.7,
+     "currency": "USD",
+     "converted": true,
+     "rate": 1.26087,
+     "rateAsOf": "2026-10-01T00:00:00Z",
+     "rateSource": "demo fixed rates (not live)",
+     "native": {
+      "amount": 2962,
+      "currency": "GBP"
+     },
+     "rentMonthly": 2870,
+     "utilitiesMonthly": 92,
+     "utilitiesKnown": true
+    }
+   },
+   "withoutRates": {
+    "EUR": null,
+    "GBP": {
+     "amount": 2962,
+     "currency": "GBP",
+     "converted": false,
+     "native": {
+      "amount": 2962,
+      "currency": "GBP"
+     },
+     "rentMonthly": 2870,
+     "utilitiesMonthly": 92,
+     "utilitiesKnown": true
+    },
+    "CAD": null,
+    "USD": null
+   }
+  },
+  {
+   "id": "demo-london-5",
+   "withRates": {
+    "EUR": {
+     "amount": 2440.64,
+     "currency": "EUR",
+     "converted": true,
+     "rate": 1.16,
+     "rateAsOf": "2026-10-01T00:00:00Z",
+     "rateSource": "demo fixed rates (not live)",
+     "native": {
+      "amount": 2104,
+      "currency": "GBP"
+     },
+     "rentMonthly": 1990,
+     "utilitiesMonthly": 114,
+     "utilitiesKnown": true
+    },
+    "GBP": {
+     "amount": 2104,
+     "currency": "GBP",
+     "converted": false,
+     "native": {
+      "amount": 2104,
+      "currency": "GBP"
+     },
+     "rentMonthly": 1990,
+     "utilitiesMonthly": 114,
+     "utilitiesKnown": true
+    },
+    "CAD": {
+     "amount": 3754.83,
+     "currency": "CAD",
+     "converted": true,
+     "rate": 1.784615,
+     "rateAsOf": "2026-10-01T00:00:00Z",
+     "rateSource": "demo fixed rates (not live)",
+     "native": {
+      "amount": 2104,
+      "currency": "GBP"
+     },
+     "rentMonthly": 1990,
+     "utilitiesMonthly": 114,
+     "utilitiesKnown": true
+    },
+    "USD": {
+     "amount": 2652.87,
+     "currency": "USD",
+     "converted": true,
+     "rate": 1.26087,
+     "rateAsOf": "2026-10-01T00:00:00Z",
+     "rateSource": "demo fixed rates (not live)",
+     "native": {
+      "amount": 2104,
+      "currency": "GBP"
+     },
+     "rentMonthly": 1990,
+     "utilitiesMonthly": 114,
+     "utilitiesKnown": true
+    }
+   },
+   "withoutRates": {
+    "EUR": null,
+    "GBP": {
+     "amount": 2104,
+     "currency": "GBP",
+     "converted": false,
+     "native": {
+      "amount": 2104,
+      "currency": "GBP"
+     },
+     "rentMonthly": 1990,
+     "utilitiesMonthly": 114,
+     "utilitiesKnown": true
+    },
+    "CAD": null,
+    "USD": null
+   }
+  },
+  {
+   "id": "demo-london-6",
+   "withRates": {
+    "EUR": {
+     "amount": 1608.54,
+     "currency": "EUR",
+     "converted": true,
+     "rate": 1.16,
+     "rateAsOf": "2026-10-01T00:00:00Z",
+     "rateSource": "demo fixed rates (not live)",
+     "native": {
+      "amount": 1386.67,
+      "currency": "GBP"
+     },
+     "rentMonthly": 1308.67,
+     "utilitiesMonthly": 78,
+     "utilitiesKnown": true
+    },
+    "GBP": {
+     "amount": 1386.67,
+     "currency": "GBP",
+     "converted": false,
+     "native": {
+      "amount": 1386.67,
+      "currency": "GBP"
+     },
+     "rentMonthly": 1308.67,
+     "utilitiesMonthly": 78,
+     "utilitiesKnown": true
+    },
+    "CAD": {
+     "amount": 2474.67,
+     "currency": "CAD",
+     "converted": true,
+     "rate": 1.784615,
+     "rateAsOf": "2026-10-01T00:00:00Z",
+     "rateSource": "demo fixed rates (not live)",
+     "native": {
+      "amount": 1386.67,
+      "currency": "GBP"
+     },
+     "rentMonthly": 1308.67,
+     "utilitiesMonthly": 78,
+     "utilitiesKnown": true
+    },
+    "USD": {
+     "amount": 1748.41,
+     "currency": "USD",
+     "converted": true,
+     "rate": 1.26087,
+     "rateAsOf": "2026-10-01T00:00:00Z",
+     "rateSource": "demo fixed rates (not live)",
+     "native": {
+      "amount": 1386.67,
+      "currency": "GBP"
+     },
+     "rentMonthly": 1308.67,
+     "utilitiesMonthly": 78,
+     "utilitiesKnown": true
+    }
+   },
+   "withoutRates": {
+    "EUR": null,
+    "GBP": {
+     "amount": 1386.67,
+     "currency": "GBP",
+     "converted": false,
+     "native": {
+      "amount": 1386.67,
+      "currency": "GBP"
+     },
+     "rentMonthly": 1308.67,
+     "utilitiesMonthly": 78,
+     "utilitiesKnown": true
+    },
+    "CAD": null,
+    "USD": null
+   }
+  },
+  {
+   "id": "demo-london-7",
+   "withRates": {
+    "EUR": {
+     "amount": 6161.92,
+     "currency": "EUR",
+     "converted": true,
+     "rate": 1.16,
+     "rateAsOf": "2026-10-01T00:00:00Z",
+     "rateSource": "demo fixed rates (not live)",
+     "native": {
+      "amount": 5312,
+      "currency": "GBP"
+     },
+     "rentMonthly": 5170,
+     "utilitiesMonthly": 142,
+     "utilitiesKnown": true
+    },
+    "GBP": {
+     "amount": 5312,
+     "currency": "GBP",
+     "converted": false,
+     "native": {
+      "amount": 5312,
+      "currency": "GBP"
+     },
+     "rentMonthly": 5170,
+     "utilitiesMonthly": 142,
+     "utilitiesKnown": true
+    },
+    "CAD": {
+     "amount": 9479.88,
+     "currency": "CAD",
+     "converted": true,
+     "rate": 1.784615,
+     "rateAsOf": "2026-10-01T00:00:00Z",
+     "rateSource": "demo fixed rates (not live)",
+     "native": {
+      "amount": 5312,
+      "currency": "GBP"
+     },
+     "rentMonthly": 5170,
+     "utilitiesMonthly": 142,
+     "utilitiesKnown": true
+    },
+    "USD": {
+     "amount": 6697.74,
+     "currency": "USD",
+     "converted": true,
+     "rate": 1.26087,
+     "rateAsOf": "2026-10-01T00:00:00Z",
+     "rateSource": "demo fixed rates (not live)",
+     "native": {
+      "amount": 5312,
+      "currency": "GBP"
+     },
+     "rentMonthly": 5170,
+     "utilitiesMonthly": 142,
+     "utilitiesKnown": true
+    }
+   },
+   "withoutRates": {
+    "EUR": null,
+    "GBP": {
+     "amount": 5312,
+     "currency": "GBP",
+     "converted": false,
+     "native": {
+      "amount": 5312,
+      "currency": "GBP"
+     },
+     "rentMonthly": 5170,
+     "utilitiesMonthly": 142,
+     "utilitiesKnown": true
+    },
+    "CAD": null,
+    "USD": null
+   }
+  },
+  {
+   "id": "demo-london-8",
+   "withRates": {
+    "EUR": {
+     "amount": 2273.6,
+     "currency": "EUR",
+     "converted": true,
+     "rate": 1.16,
+     "rateAsOf": "2026-10-01T00:00:00Z",
+     "rateSource": "demo fixed rates (not live)",
+     "native": {
+      "amount": 1960,
+      "currency": "GBP"
+     },
+     "rentMonthly": 1960,
+     "utilitiesMonthly": 0,
+     "utilitiesKnown": true
+    },
+    "GBP": {
+     "amount": 1960,
+     "currency": "GBP",
+     "converted": false,
+     "native": {
+      "amount": 1960,
+      "currency": "GBP"
+     },
+     "rentMonthly": 1960,
+     "utilitiesMonthly": 0,
+     "utilitiesKnown": true
+    },
+    "CAD": {
+     "amount": 3497.85,
+     "currency": "CAD",
+     "converted": true,
+     "rate": 1.784615,
+     "rateAsOf": "2026-10-01T00:00:00Z",
+     "rateSource": "demo fixed rates (not live)",
+     "native": {
+      "amount": 1960,
+      "currency": "GBP"
+     },
+     "rentMonthly": 1960,
+     "utilitiesMonthly": 0,
+     "utilitiesKnown": true
+    },
+    "USD": {
+     "amount": 2471.3,
+     "currency": "USD",
+     "converted": true,
+     "rate": 1.26087,
+     "rateAsOf": "2026-10-01T00:00:00Z",
+     "rateSource": "demo fixed rates (not live)",
+     "native": {
+      "amount": 1960,
+      "currency": "GBP"
+     },
+     "rentMonthly": 1960,
+     "utilitiesMonthly": 0,
+     "utilitiesKnown": true
+    }
+   },
+   "withoutRates": {
+    "EUR": null,
+    "GBP": {
+     "amount": 1960,
+     "currency": "GBP",
+     "converted": false,
+     "native": {
+      "amount": 1960,
+      "currency": "GBP"
+     },
+     "rentMonthly": 1960,
+     "utilitiesMonthly": 0,
+     "utilitiesKnown": true
+    },
+    "CAD": null,
+    "USD": null
+   }
+  },
+  {
+   "id": "demo-toronto-1",
+   "withRates": {
+    "EUR": {
+     "amount": 1020.5,
+     "currency": "EUR",
+     "converted": true,
+     "rate": 0.65,
+     "rateAsOf": "2026-10-01T00:00:00Z",
+     "rateSource": "demo fixed rates (not live)",
+     "native": {
+      "amount": 1570,
+      "currency": "CAD"
+     },
+     "rentMonthly": 1570,
+     "utilitiesMonthly": 0,
+     "utilitiesKnown": true
+    },
+    "GBP": {
+     "amount": 879.74,
+     "currency": "GBP",
+     "converted": true,
+     "rate": 0.560345,
+     "rateAsOf": "2026-10-01T00:00:00Z",
+     "rateSource": "demo fixed rates (not live)",
+     "native": {
+      "amount": 1570,
+      "currency": "CAD"
+     },
+     "rentMonthly": 1570,
+     "utilitiesMonthly": 0,
+     "utilitiesKnown": true
+    },
+    "CAD": {
+     "amount": 1570,
+     "currency": "CAD",
+     "converted": false,
+     "native": {
+      "amount": 1570,
+      "currency": "CAD"
+     },
+     "rentMonthly": 1570,
+     "utilitiesMonthly": 0,
+     "utilitiesKnown": true
+    },
+    "USD": {
+     "amount": 1109.24,
+     "currency": "USD",
+     "converted": true,
+     "rate": 0.706522,
+     "rateAsOf": "2026-10-01T00:00:00Z",
+     "rateSource": "demo fixed rates (not live)",
+     "native": {
+      "amount": 1570,
+      "currency": "CAD"
+     },
+     "rentMonthly": 1570,
+     "utilitiesMonthly": 0,
+     "utilitiesKnown": true
+    }
+   },
+   "withoutRates": {
+    "EUR": null,
+    "GBP": null,
+    "CAD": {
+     "amount": 1570,
+     "currency": "CAD",
+     "converted": false,
+     "native": {
+      "amount": 1570,
+      "currency": "CAD"
+     },
+     "rentMonthly": 1570,
+     "utilitiesMonthly": 0,
+     "utilitiesKnown": true
+    },
+    "USD": null
+   }
+  },
+  {
+   "id": "demo-toronto-2",
+   "withRates": {
+    "EUR": {
+     "amount": 2405,
+     "currency": "EUR",
+     "converted": true,
+     "rate": 0.65,
+     "rateAsOf": "2026-10-01T00:00:00Z",
+     "rateSource": "demo fixed rates (not live)",
+     "native": {
+      "amount": 3700,
+      "currency": "CAD"
+     },
+     "rentMonthly": 3700,
+     "utilitiesMonthly": 0,
+     "utilitiesKnown": true
+    },
+    "GBP": {
+     "amount": 2073.28,
+     "currency": "GBP",
+     "converted": true,
+     "rate": 0.560345,
+     "rateAsOf": "2026-10-01T00:00:00Z",
+     "rateSource": "demo fixed rates (not live)",
+     "native": {
+      "amount": 3700,
+      "currency": "CAD"
+     },
+     "rentMonthly": 3700,
+     "utilitiesMonthly": 0,
+     "utilitiesKnown": true
+    },
+    "CAD": {
+     "amount": 3700,
+     "currency": "CAD",
+     "converted": false,
+     "native": {
+      "amount": 3700,
+      "currency": "CAD"
+     },
+     "rentMonthly": 3700,
+     "utilitiesMonthly": 0,
+     "utilitiesKnown": true
+    },
+    "USD": {
+     "amount": 2614.13,
+     "currency": "USD",
+     "converted": true,
+     "rate": 0.706522,
+     "rateAsOf": "2026-10-01T00:00:00Z",
+     "rateSource": "demo fixed rates (not live)",
+     "native": {
+      "amount": 3700,
+      "currency": "CAD"
+     },
+     "rentMonthly": 3700,
+     "utilitiesMonthly": 0,
+     "utilitiesKnown": true
+    }
+   },
+   "withoutRates": {
+    "EUR": null,
+    "GBP": null,
+    "CAD": {
+     "amount": 3700,
+     "currency": "CAD",
+     "converted": false,
+     "native": {
+      "amount": 3700,
+      "currency": "CAD"
+     },
+     "rentMonthly": 3700,
+     "utilitiesMonthly": 0,
+     "utilitiesKnown": true
+    },
+    "USD": null
+   }
+  },
+  {
+   "id": "demo-toronto-3",
+   "withRates": {
+    "EUR": {
+     "amount": 734.5,
+     "currency": "EUR",
+     "converted": true,
+     "rate": 0.65,
+     "rateAsOf": "2026-10-01T00:00:00Z",
+     "rateSource": "demo fixed rates (not live)",
+     "native": {
+      "amount": 1130,
+      "currency": "CAD"
+     },
+     "rentMonthly": 1130,
+     "utilitiesMonthly": 0,
+     "utilitiesKnown": true
+    },
+    "GBP": {
+     "amount": 633.19,
+     "currency": "GBP",
+     "converted": true,
+     "rate": 0.560345,
+     "rateAsOf": "2026-10-01T00:00:00Z",
+     "rateSource": "demo fixed rates (not live)",
+     "native": {
+      "amount": 1130,
+      "currency": "CAD"
+     },
+     "rentMonthly": 1130,
+     "utilitiesMonthly": 0,
+     "utilitiesKnown": true
+    },
+    "CAD": {
+     "amount": 1130,
+     "currency": "CAD",
+     "converted": false,
+     "native": {
+      "amount": 1130,
+      "currency": "CAD"
+     },
+     "rentMonthly": 1130,
+     "utilitiesMonthly": 0,
+     "utilitiesKnown": true
+    },
+    "USD": {
+     "amount": 798.37,
+     "currency": "USD",
+     "converted": true,
+     "rate": 0.706522,
+     "rateAsOf": "2026-10-01T00:00:00Z",
+     "rateSource": "demo fixed rates (not live)",
+     "native": {
+      "amount": 1130,
+      "currency": "CAD"
+     },
+     "rentMonthly": 1130,
+     "utilitiesMonthly": 0,
+     "utilitiesKnown": true
+    }
+   },
+   "withoutRates": {
+    "EUR": null,
+    "GBP": null,
+    "CAD": {
+     "amount": 1130,
+     "currency": "CAD",
+     "converted": false,
+     "native": {
+      "amount": 1130,
+      "currency": "CAD"
+     },
+     "rentMonthly": 1130,
+     "utilitiesMonthly": 0,
+     "utilitiesKnown": true
+    },
+    "USD": null
+   }
+  },
+  {
+   "id": "demo-toronto-4",
+   "withRates": {
+    "EUR": {
+     "amount": 1930.5,
+     "currency": "EUR",
+     "converted": true,
+     "rate": 0.65,
+     "rateAsOf": "2026-10-01T00:00:00Z",
+     "rateSource": "demo fixed rates (not live)",
+     "native": {
+      "amount": 2970,
+      "currency": "CAD"
+     },
+     "rentMonthly": 2970,
+     "utilitiesMonthly": 0,
+     "utilitiesKnown": true
+    },
+    "GBP": {
+     "amount": 1664.22,
+     "currency": "GBP",
+     "converted": true,
+     "rate": 0.560345,
+     "rateAsOf": "2026-10-01T00:00:00Z",
+     "rateSource": "demo fixed rates (not live)",
+     "native": {
+      "amount": 2970,
+      "currency": "CAD"
+     },
+     "rentMonthly": 2970,
+     "utilitiesMonthly": 0,
+     "utilitiesKnown": true
+    },
+    "CAD": {
+     "amount": 2970,
+     "currency": "CAD",
+     "converted": false,
+     "native": {
+      "amount": 2970,
+      "currency": "CAD"
+     },
+     "rentMonthly": 2970,
+     "utilitiesMonthly": 0,
+     "utilitiesKnown": true
+    },
+    "USD": {
+     "amount": 2098.37,
+     "currency": "USD",
+     "converted": true,
+     "rate": 0.706522,
+     "rateAsOf": "2026-10-01T00:00:00Z",
+     "rateSource": "demo fixed rates (not live)",
+     "native": {
+      "amount": 2970,
+      "currency": "CAD"
+     },
+     "rentMonthly": 2970,
+     "utilitiesMonthly": 0,
+     "utilitiesKnown": true
+    }
+   },
+   "withoutRates": {
+    "EUR": null,
+    "GBP": null,
+    "CAD": {
+     "amount": 2970,
+     "currency": "CAD",
+     "converted": false,
+     "native": {
+      "amount": 2970,
+      "currency": "CAD"
+     },
+     "rentMonthly": 2970,
+     "utilitiesMonthly": 0,
+     "utilitiesKnown": true
+    },
+    "USD": null
+   }
+  },
+  {
+   "id": "demo-toronto-5",
+   "withRates": {
+    "EUR": {
+     "amount": 2218.45,
+     "currency": "EUR",
+     "converted": true,
+     "rate": 0.65,
+     "rateAsOf": "2026-10-01T00:00:00Z",
+     "rateSource": "demo fixed rates (not live)",
+     "native": {
+      "amount": 3413,
+      "currency": "CAD"
+     },
+     "rentMonthly": 3330,
+     "utilitiesMonthly": 83,
+     "utilitiesKnown": true
+    },
+    "GBP": {
+     "amount": 1912.46,
+     "currency": "GBP",
+     "converted": true,
+     "rate": 0.560345,
+     "rateAsOf": "2026-10-01T00:00:00Z",
+     "rateSource": "demo fixed rates (not live)",
+     "native": {
+      "amount": 3413,
+      "currency": "CAD"
+     },
+     "rentMonthly": 3330,
+     "utilitiesMonthly": 83,
+     "utilitiesKnown": true
+    },
+    "CAD": {
+     "amount": 3413,
+     "currency": "CAD",
+     "converted": false,
+     "native": {
+      "amount": 3413,
+      "currency": "CAD"
+     },
+     "rentMonthly": 3330,
+     "utilitiesMonthly": 83,
+     "utilitiesKnown": true
+    },
+    "USD": {
+     "amount": 2411.36,
+     "currency": "USD",
+     "converted": true,
+     "rate": 0.706522,
+     "rateAsOf": "2026-10-01T00:00:00Z",
+     "rateSource": "demo fixed rates (not live)",
+     "native": {
+      "amount": 3413,
+      "currency": "CAD"
+     },
+     "rentMonthly": 3330,
+     "utilitiesMonthly": 83,
+     "utilitiesKnown": true
+    }
+   },
+   "withoutRates": {
+    "EUR": null,
+    "GBP": null,
+    "CAD": {
+     "amount": 3413,
+     "currency": "CAD",
+     "converted": false,
+     "native": {
+      "amount": 3413,
+      "currency": "CAD"
+     },
+     "rentMonthly": 3330,
+     "utilitiesMonthly": 83,
+     "utilitiesKnown": true
+    },
+    "USD": null
+   }
+  },
+  {
+   "id": "demo-toronto-6",
+   "withRates": {
+    "EUR": {
+     "amount": 1258.61,
+     "currency": "EUR",
+     "converted": true,
+     "rate": 0.65,
+     "rateAsOf": "2026-10-01T00:00:00Z",
+     "rateSource": "demo fixed rates (not live)",
+     "native": {
+      "amount": 1936.33,
+      "currency": "CAD"
+     },
+     "rentMonthly": 1850.33,
+     "utilitiesMonthly": 86,
+     "utilitiesKnown": true
+    },
+    "GBP": {
+     "amount": 1085.01,
+     "currency": "GBP",
+     "converted": true,
+     "rate": 0.560345,
+     "rateAsOf": "2026-10-01T00:00:00Z",
+     "rateSource": "demo fixed rates (not live)",
+     "native": {
+      "amount": 1936.33,
+      "currency": "CAD"
+     },
+     "rentMonthly": 1850.33,
+     "utilitiesMonthly": 86,
+     "utilitiesKnown": true
+    },
+    "CAD": {
+     "amount": 1936.33,
+     "currency": "CAD",
+     "converted": false,
+     "native": {
+      "amount": 1936.33,
+      "currency": "CAD"
+     },
+     "rentMonthly": 1850.33,
+     "utilitiesMonthly": 86,
+     "utilitiesKnown": true
+    },
+    "USD": {
+     "amount": 1368.06,
+     "currency": "USD",
+     "converted": true,
+     "rate": 0.706522,
+     "rateAsOf": "2026-10-01T00:00:00Z",
+     "rateSource": "demo fixed rates (not live)",
+     "native": {
+      "amount": 1936.33,
+      "currency": "CAD"
+     },
+     "rentMonthly": 1850.33,
+     "utilitiesMonthly": 86,
+     "utilitiesKnown": true
+    }
+   },
+   "withoutRates": {
+    "EUR": null,
+    "GBP": null,
+    "CAD": {
+     "amount": 1936.33,
+     "currency": "CAD",
+     "converted": false,
+     "native": {
+      "amount": 1936.33,
+      "currency": "CAD"
+     },
+     "rentMonthly": 1850.33,
+     "utilitiesMonthly": 86,
+     "utilitiesKnown": true
+    },
+    "USD": null
+   }
+  },
+  {
+   "id": "demo-toronto-7",
+   "withRates": {
+    "EUR": {
+     "amount": 3536,
+     "currency": "EUR",
+     "converted": true,
+     "rate": 0.65,
+     "rateAsOf": "2026-10-01T00:00:00Z",
+     "rateSource": "demo fixed rates (not live)",
+     "native": {
+      "amount": 5440,
+      "currency": "CAD"
+     },
+     "rentMonthly": 5440,
+     "utilitiesMonthly": 0,
+     "utilitiesKnown": true
+    },
+    "GBP": {
+     "amount": 3048.28,
+     "currency": "GBP",
+     "converted": true,
+     "rate": 0.560345,
+     "rateAsOf": "2026-10-01T00:00:00Z",
+     "rateSource": "demo fixed rates (not live)",
+     "native": {
+      "amount": 5440,
+      "currency": "CAD"
+     },
+     "rentMonthly": 5440,
+     "utilitiesMonthly": 0,
+     "utilitiesKnown": true
+    },
+    "CAD": {
+     "amount": 5440,
+     "currency": "CAD",
+     "converted": false,
+     "native": {
+      "amount": 5440,
+      "currency": "CAD"
+     },
+     "rentMonthly": 5440,
+     "utilitiesMonthly": 0,
+     "utilitiesKnown": true
+    },
+    "USD": {
+     "amount": 3843.48,
+     "currency": "USD",
+     "converted": true,
+     "rate": 0.706522,
+     "rateAsOf": "2026-10-01T00:00:00Z",
+     "rateSource": "demo fixed rates (not live)",
+     "native": {
+      "amount": 5440,
+      "currency": "CAD"
+     },
+     "rentMonthly": 5440,
+     "utilitiesMonthly": 0,
+     "utilitiesKnown": true
+    }
+   },
+   "withoutRates": {
+    "EUR": null,
+    "GBP": null,
+    "CAD": {
+     "amount": 5440,
+     "currency": "CAD",
+     "converted": false,
+     "native": {
+      "amount": 5440,
+      "currency": "CAD"
+     },
+     "rentMonthly": 5440,
+     "utilitiesMonthly": 0,
+     "utilitiesKnown": true
+    },
+    "USD": null
+   }
+  },
+  {
+   "id": "demo-toronto-8",
+   "withRates": {
+    "EUR": {
+     "amount": 2021.5,
+     "currency": "EUR",
+     "converted": true,
+     "rate": 0.65,
+     "rateAsOf": "2026-10-01T00:00:00Z",
+     "rateSource": "demo fixed rates (not live)",
+     "native": {
+      "amount": 3110,
+      "currency": "CAD"
+     },
+     "rentMonthly": 3110,
+     "utilitiesMonthly": 0,
+     "utilitiesKnown": true
+    },
+    "GBP": {
+     "amount": 1742.67,
+     "currency": "GBP",
+     "converted": true,
+     "rate": 0.560345,
+     "rateAsOf": "2026-10-01T00:00:00Z",
+     "rateSource": "demo fixed rates (not live)",
+     "native": {
+      "amount": 3110,
+      "currency": "CAD"
+     },
+     "rentMonthly": 3110,
+     "utilitiesMonthly": 0,
+     "utilitiesKnown": true
+    },
+    "CAD": {
+     "amount": 3110,
+     "currency": "CAD",
+     "converted": false,
+     "native": {
+      "amount": 3110,
+      "currency": "CAD"
+     },
+     "rentMonthly": 3110,
+     "utilitiesMonthly": 0,
+     "utilitiesKnown": true
+    },
+    "USD": {
+     "amount": 2197.28,
+     "currency": "USD",
+     "converted": true,
+     "rate": 0.706522,
+     "rateAsOf": "2026-10-01T00:00:00Z",
+     "rateSource": "demo fixed rates (not live)",
+     "native": {
+      "amount": 3110,
+      "currency": "CAD"
+     },
+     "rentMonthly": 3110,
+     "utilitiesMonthly": 0,
+     "utilitiesKnown": true
+    }
+   },
+   "withoutRates": {
+    "EUR": null,
+    "GBP": null,
+    "CAD": {
+     "amount": 3110,
+     "currency": "CAD",
+     "converted": false,
+     "native": {
+      "amount": 3110,
+      "currency": "CAD"
+     },
+     "rentMonthly": 3110,
+     "utilitiesMonthly": 0,
+     "utilitiesKnown": true
+    },
+    "USD": null
+   }
+  },
+  {
+   "id": "demo-berlin-dup",
+   "withRates": {
+    "EUR": {
+     "amount": 1490,
+     "currency": "EUR",
+     "converted": false,
+     "native": {
+      "amount": 1490,
+      "currency": "EUR"
+     },
+     "rentMonthly": 1428,
+     "utilitiesMonthly": 62,
+     "utilitiesKnown": true
+    },
+    "GBP": {
+     "amount": 1284.48,
+     "currency": "GBP",
+     "converted": true,
+     "rate": 0.862069,
+     "rateAsOf": "2026-10-01T00:00:00Z",
+     "rateSource": "demo fixed rates (not live)",
+     "native": {
+      "amount": 1490,
+      "currency": "EUR"
+     },
+     "rentMonthly": 1428,
+     "utilitiesMonthly": 62,
+     "utilitiesKnown": true
+    },
+    "CAD": {
+     "amount": 2292.31,
+     "currency": "CAD",
+     "converted": true,
+     "rate": 1.538462,
+     "rateAsOf": "2026-10-01T00:00:00Z",
+     "rateSource": "demo fixed rates (not live)",
+     "native": {
+      "amount": 1490,
+      "currency": "EUR"
+     },
+     "rentMonthly": 1428,
+     "utilitiesMonthly": 62,
+     "utilitiesKnown": true
+    },
+    "USD": {
+     "amount": 1619.57,
+     "currency": "USD",
+     "converted": true,
+     "rate": 1.086957,
+     "rateAsOf": "2026-10-01T00:00:00Z",
+     "rateSource": "demo fixed rates (not live)",
+     "native": {
+      "amount": 1490,
+      "currency": "EUR"
+     },
+     "rentMonthly": 1428,
+     "utilitiesMonthly": 62,
+     "utilitiesKnown": true
+    }
+   },
+   "withoutRates": {
+    "EUR": {
+     "amount": 1490,
+     "currency": "EUR",
+     "converted": false,
+     "native": {
+      "amount": 1490,
+      "currency": "EUR"
+     },
+     "rentMonthly": 1428,
+     "utilitiesMonthly": 62,
+     "utilitiesKnown": true
+    },
+    "GBP": null,
+    "CAD": null,
+    "USD": null
+   }
+  },
+  {
+   "id": "demo-london-dup",
+   "withRates": {
+    "EUR": {
+     "amount": 2307.24,
+     "currency": "EUR",
+     "converted": true,
+     "rate": 1.16,
+     "rateAsOf": "2026-10-01T00:00:00Z",
+     "rateSource": "demo fixed rates (not live)",
+     "native": {
+      "amount": 1989,
+      "currency": "GBP"
+     },
+     "rentMonthly": 1989,
+     "utilitiesMonthly": 0,
+     "utilitiesKnown": true
+    },
+    "GBP": {
+     "amount": 1989,
+     "currency": "GBP",
+     "converted": false,
+     "native": {
+      "amount": 1989,
+      "currency": "GBP"
+     },
+     "rentMonthly": 1989,
+     "utilitiesMonthly": 0,
+     "utilitiesKnown": true
+    },
+    "CAD": {
+     "amount": 3549.6,
+     "currency": "CAD",
+     "converted": true,
+     "rate": 1.784615,
+     "rateAsOf": "2026-10-01T00:00:00Z",
+     "rateSource": "demo fixed rates (not live)",
+     "native": {
+      "amount": 1989,
+      "currency": "GBP"
+     },
+     "rentMonthly": 1989,
+     "utilitiesMonthly": 0,
+     "utilitiesKnown": true
+    },
+    "USD": {
+     "amount": 2507.87,
+     "currency": "USD",
+     "converted": true,
+     "rate": 1.26087,
+     "rateAsOf": "2026-10-01T00:00:00Z",
+     "rateSource": "demo fixed rates (not live)",
+     "native": {
+      "amount": 1989,
+      "currency": "GBP"
+     },
+     "rentMonthly": 1989,
+     "utilitiesMonthly": 0,
+     "utilitiesKnown": true
+    }
+   },
+   "withoutRates": {
+    "EUR": null,
+    "GBP": {
+     "amount": 1989,
+     "currency": "GBP",
+     "converted": false,
+     "native": {
+      "amount": 1989,
+      "currency": "GBP"
+     },
+     "rentMonthly": 1989,
+     "utilitiesMonthly": 0,
+     "utilitiesKnown": true
+    },
+    "CAD": null,
+    "USD": null
+   }
+  },
+  {
+   "id": "demo-toronto-dup",
+   "withRates": {
+    "EUR": {
+     "amount": 2453.1,
+     "currency": "EUR",
+     "converted": true,
+     "rate": 0.65,
+     "rateAsOf": "2026-10-01T00:00:00Z",
+     "rateSource": "demo fixed rates (not live)",
+     "native": {
+      "amount": 3774,
+      "currency": "CAD"
+     },
+     "rentMonthly": 3774,
+     "utilitiesMonthly": 0,
+     "utilitiesKnown": true
+    },
+    "GBP": {
+     "amount": 2114.74,
+     "currency": "GBP",
+     "converted": true,
+     "rate": 0.560345,
+     "rateAsOf": "2026-10-01T00:00:00Z",
+     "rateSource": "demo fixed rates (not live)",
+     "native": {
+      "amount": 3774,
+      "currency": "CAD"
+     },
+     "rentMonthly": 3774,
+     "utilitiesMonthly": 0,
+     "utilitiesKnown": true
+    },
+    "CAD": {
+     "amount": 3774,
+     "currency": "CAD",
+     "converted": false,
+     "native": {
+      "amount": 3774,
+      "currency": "CAD"
+     },
+     "rentMonthly": 3774,
+     "utilitiesMonthly": 0,
+     "utilitiesKnown": true
+    },
+    "USD": {
+     "amount": 2666.41,
+     "currency": "USD",
+     "converted": true,
+     "rate": 0.706522,
+     "rateAsOf": "2026-10-01T00:00:00Z",
+     "rateSource": "demo fixed rates (not live)",
+     "native": {
+      "amount": 3774,
+      "currency": "CAD"
+     },
+     "rentMonthly": 3774,
+     "utilitiesMonthly": 0,
+     "utilitiesKnown": true
+    }
+   },
+   "withoutRates": {
+    "EUR": null,
+    "GBP": null,
+    "CAD": {
+     "amount": 3774,
+     "currency": "CAD",
+     "converted": false,
+     "native": {
+      "amount": 3774,
+      "currency": "CAD"
+     },
+     "rentMonthly": 3774,
+     "utilitiesMonthly": 0,
+     "utilitiesKnown": true
+    },
+    "USD": null
+   }
+  }
+ ],
+ "duplicates": [
+  {
+   "id": "demo-berlin-1",
+   "withRates": [],
+   "withoutRates": []
+  },
+  {
+   "id": "demo-berlin-2",
+   "withRates": [
+    {
+     "listingId": "demo-berlin-dup",
+     "score": 0.9,
+     "category": "probable",
+     "reasons": [
+      "same neighborhood",
+      "same number of rooms",
+      "monthly cost within 1.9%",
+      "title similarity 60%",
+      "area within 5%",
+      "listed by different sources"
+     ]
+    }
+   ],
+   "withoutRates": [
+    {
+     "listingId": "demo-berlin-dup",
+     "score": 0.9,
+     "category": "probable",
+     "reasons": [
+      "same neighborhood",
+      "same number of rooms",
+      "monthly cost within 1.9%",
+      "title similarity 60%",
+      "area within 5%",
+      "listed by different sources"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "demo-berlin-3",
+   "withRates": [],
+   "withoutRates": []
+  },
+  {
+   "id": "demo-berlin-4",
+   "withRates": [],
+   "withoutRates": []
+  },
+  {
+   "id": "demo-berlin-5",
+   "withRates": [
+    {
+     "listingId": "demo-berlin-8",
+     "score": 0.78,
+     "category": "possible",
+     "reasons": [
+      "same neighborhood",
+      "same number of rooms",
+      "monthly cost within 3.5%",
+      "title similarity 50%",
+      "listed by different sources"
+     ]
+    }
+   ],
+   "withoutRates": [
+    {
+     "listingId": "demo-berlin-8",
+     "score": 0.78,
+     "category": "possible",
+     "reasons": [
+      "same neighborhood",
+      "same number of rooms",
+      "monthly cost within 3.5%",
+      "title similarity 50%",
+      "listed by different sources"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "demo-berlin-6",
+   "withRates": [],
+   "withoutRates": []
+  },
+  {
+   "id": "demo-berlin-7",
+   "withRates": [],
+   "withoutRates": []
+  },
+  {
+   "id": "demo-berlin-8",
+   "withRates": [
+    {
+     "listingId": "demo-berlin-5",
+     "score": 0.78,
+     "category": "possible",
+     "reasons": [
+      "same neighborhood",
+      "same number of rooms",
+      "monthly cost within 3.5%",
+      "title similarity 50%",
+      "listed by different sources"
+     ]
+    }
+   ],
+   "withoutRates": [
+    {
+     "listingId": "demo-berlin-5",
+     "score": 0.78,
+     "category": "possible",
+     "reasons": [
+      "same neighborhood",
+      "same number of rooms",
+      "monthly cost within 3.5%",
+      "title similarity 50%",
+      "listed by different sources"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "demo-london-1",
+   "withRates": [],
+   "withoutRates": []
+  },
+  {
+   "id": "demo-london-2",
+   "withRates": [
+    {
+     "listingId": "demo-london-dup",
+     "score": 0.9,
+     "category": "probable",
+     "reasons": [
+      "same neighborhood",
+      "same number of rooms",
+      "monthly cost within 2%",
+      "title similarity 60%",
+      "area within 5%",
+      "listed by different sources"
+     ]
+    }
+   ],
+   "withoutRates": [
+    {
+     "listingId": "demo-london-dup",
+     "score": 0.9,
+     "category": "probable",
+     "reasons": [
+      "same neighborhood",
+      "same number of rooms",
+      "monthly cost within 2%",
+      "title similarity 60%",
+      "area within 5%",
+      "listed by different sources"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "demo-london-3",
+   "withRates": [],
+   "withoutRates": []
+  },
+  {
+   "id": "demo-london-4",
+   "withRates": [],
+   "withoutRates": []
+  },
+  {
+   "id": "demo-london-5",
+   "withRates": [],
+   "withoutRates": []
+  },
+  {
+   "id": "demo-london-6",
+   "withRates": [],
+   "withoutRates": []
+  },
+  {
+   "id": "demo-london-7",
+   "withRates": [],
+   "withoutRates": []
+  },
+  {
+   "id": "demo-london-8",
+   "withRates": [],
+   "withoutRates": []
+  },
+  {
+   "id": "demo-toronto-1",
+   "withRates": [
+    {
+     "listingId": "demo-toronto-6",
+     "score": 0.65,
+     "category": "possible",
+     "reasons": [
+      "same neighborhood",
+      "same number of rooms",
+      "title similarity 100%",
+      "listed by different sources"
+     ]
+    }
+   ],
+   "withoutRates": [
+    {
+     "listingId": "demo-toronto-6",
+     "score": 0.65,
+     "category": "possible",
+     "reasons": [
+      "same neighborhood",
+      "same number of rooms",
+      "title similarity 100%",
+      "listed by different sources"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "demo-toronto-2",
+   "withRates": [
+    {
+     "listingId": "demo-toronto-dup",
+     "score": 0.9,
+     "category": "probable",
+     "reasons": [
+      "same neighborhood",
+      "same number of rooms",
+      "monthly cost within 2%",
+      "title similarity 60%",
+      "area within 5%",
+      "listed by different sources"
+     ]
+    }
+   ],
+   "withoutRates": [
+    {
+     "listingId": "demo-toronto-dup",
+     "score": 0.9,
+     "category": "probable",
+     "reasons": [
+      "same neighborhood",
+      "same number of rooms",
+      "monthly cost within 2%",
+      "title similarity 60%",
+      "area within 5%",
+      "listed by different sources"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "demo-toronto-3",
+   "withRates": [],
+   "withoutRates": []
+  },
+  {
+   "id": "demo-toronto-4",
+   "withRates": [],
+   "withoutRates": []
+  },
+  {
+   "id": "demo-toronto-5",
+   "withRates": [
+    {
+     "listingId": "demo-toronto-8",
+     "score": 0.67,
+     "category": "possible",
+     "reasons": [
+      "same neighborhood",
+      "same number of rooms",
+      "monthly cost within 8.9% (loose)",
+      "title similarity 60%",
+      "listed by different sources"
+     ]
+    }
+   ],
+   "withoutRates": [
+    {
+     "listingId": "demo-toronto-8",
+     "score": 0.67,
+     "category": "possible",
+     "reasons": [
+      "same neighborhood",
+      "same number of rooms",
+      "monthly cost within 8.9% (loose)",
+      "title similarity 60%",
+      "listed by different sources"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "demo-toronto-6",
+   "withRates": [
+    {
+     "listingId": "demo-toronto-1",
+     "score": 0.65,
+     "category": "possible",
+     "reasons": [
+      "same neighborhood",
+      "same number of rooms",
+      "title similarity 100%",
+      "listed by different sources"
+     ]
+    }
+   ],
+   "withoutRates": [
+    {
+     "listingId": "demo-toronto-1",
+     "score": 0.65,
+     "category": "possible",
+     "reasons": [
+      "same neighborhood",
+      "same number of rooms",
+      "title similarity 100%",
+      "listed by different sources"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "demo-toronto-7",
+   "withRates": [],
+   "withoutRates": []
+  },
+  {
+   "id": "demo-toronto-8",
+   "withRates": [
+    {
+     "listingId": "demo-toronto-5",
+     "score": 0.67,
+     "category": "possible",
+     "reasons": [
+      "same neighborhood",
+      "same number of rooms",
+      "monthly cost within 8.9% (loose)",
+      "title similarity 60%",
+      "listed by different sources"
+     ]
+    }
+   ],
+   "withoutRates": [
+    {
+     "listingId": "demo-toronto-5",
+     "score": 0.67,
+     "category": "possible",
+     "reasons": [
+      "same neighborhood",
+      "same number of rooms",
+      "monthly cost within 8.9% (loose)",
+      "title similarity 60%",
+      "listed by different sources"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "demo-berlin-dup",
+   "withRates": [
+    {
+     "listingId": "demo-berlin-2",
+     "score": 0.9,
+     "category": "probable",
+     "reasons": [
+      "same neighborhood",
+      "same number of rooms",
+      "monthly cost within 1.9%",
+      "title similarity 60%",
+      "area within 5%",
+      "listed by different sources"
+     ]
+    }
+   ],
+   "withoutRates": [
+    {
+     "listingId": "demo-berlin-2",
+     "score": 0.9,
+     "category": "probable",
+     "reasons": [
+      "same neighborhood",
+      "same number of rooms",
+      "monthly cost within 1.9%",
+      "title similarity 60%",
+      "area within 5%",
+      "listed by different sources"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "demo-london-dup",
+   "withRates": [
+    {
+     "listingId": "demo-london-2",
+     "score": 0.9,
+     "category": "probable",
+     "reasons": [
+      "same neighborhood",
+      "same number of rooms",
+      "monthly cost within 2%",
+      "title similarity 60%",
+      "area within 5%",
+      "listed by different sources"
+     ]
+    }
+   ],
+   "withoutRates": [
+    {
+     "listingId": "demo-london-2",
+     "score": 0.9,
+     "category": "probable",
+     "reasons": [
+      "same neighborhood",
+      "same number of rooms",
+      "monthly cost within 2%",
+      "title similarity 60%",
+      "area within 5%",
+      "listed by different sources"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "demo-toronto-dup",
+   "withRates": [
+    {
+     "listingId": "demo-toronto-2",
+     "score": 0.9,
+     "category": "probable",
+     "reasons": [
+      "same neighborhood",
+      "same number of rooms",
+      "monthly cost within 2%",
+      "title similarity 60%",
+      "area within 5%",
+      "listed by different sources"
+     ]
+    }
+   ],
+   "withoutRates": [
+    {
+     "listingId": "demo-toronto-2",
+     "score": 0.9,
+     "category": "probable",
+     "reasons": [
+      "same neighborhood",
+      "same number of rooms",
+      "monthly cost within 2%",
+      "title similarity 60%",
+      "area within 5%",
+      "listed by different sources"
+     ]
+    }
+   ]
+  }
+ ],
+ "searches": [
+  {
+   "query": {},
+   "total": 27,
+   "ids": [
+    "demo-berlin-1",
+    "demo-berlin-dup",
+    "demo-london-1",
+    "demo-berlin-2",
+    "demo-london-dup",
+    "demo-toronto-1",
+    "demo-london-2",
+    "demo-toronto-dup",
+    "demo-berlin-3",
+    "demo-toronto-2",
+    "demo-london-3",
+    "demo-berlin-4"
+   ],
+   "amounts": [
+    748,
+    1490,
+    1670.4,
+    1462,
+    2307.24,
+    1020.5,
+    2262,
+    2453.1,
+    568,
+    2405,
+    1115.92,
+    1910
+   ]
+  },
+  {
+   "query": {
+    "city": "Berlin"
+   },
+   "total": 9,
+   "ids": [
+    "demo-berlin-1",
+    "demo-berlin-dup",
+    "demo-berlin-2",
+    "demo-berlin-3",
+    "demo-berlin-4",
+    "demo-berlin-5",
+    "demo-berlin-6",
+    "demo-berlin-7",
+    "demo-berlin-8"
+   ],
+   "amounts": [
+    748,
+    1490,
+    1462,
+    568,
+    1910,
+    1440,
+    849.33,
+    2841,
+    1390
+   ]
+  },
+  {
+   "query": {
+    "city": "london",
+    "sort": "price_asc",
+    "currency": "GBP"
+   },
+   "total": 9,
+   "ids": [
+    "demo-london-3",
+    "demo-london-6",
+    "demo-london-1",
+    "demo-london-2",
+    "demo-london-8",
+    "demo-london-dup",
+    "demo-london-5",
+    "demo-london-4",
+    "demo-london-7"
+   ],
+   "amounts": [
+    962,
+    1386.67,
+    1440,
+    1950,
+    1960,
+    1989,
+    2104,
+    2962,
+    5312
+   ]
+  },
+  {
+   "query": {
+    "sort": "price_desc",
+    "currency": "USD",
+    "pageSize": 5,
+    "page": 2
+   },
+   "total": 27,
+   "ids": [
+    "demo-london-5",
+    "demo-toronto-2",
+    "demo-london-dup",
+    "demo-london-8",
+    "demo-london-2"
+   ],
+   "amounts": [
+    2652.87,
+    2614.13,
+    2507.87,
+    2471.3,
+    2458.7
+   ]
+  },
+  {
+   "query": {
+    "minPrice": 600,
+    "maxPrice": 1500,
+    "sort": "price_asc"
+   },
+   "total": 10,
+   "ids": [
+    "demo-toronto-3",
+    "demo-berlin-1",
+    "demo-berlin-6",
+    "demo-toronto-1",
+    "demo-london-3",
+    "demo-toronto-6",
+    "demo-berlin-8",
+    "demo-berlin-5",
+    "demo-berlin-2",
+    "demo-berlin-dup"
+   ],
+   "amounts": [
+    734.5,
+    748,
+    849.33,
+    1020.5,
+    1115.92,
+    1258.61,
+    1390,
+    1440,
+    1462,
+    1490
+   ]
+  },
+  {
+   "query": {
+    "q": "neukolln"
+   },
+   "total": 2,
+   "ids": [
+    "demo-berlin-1",
+    "demo-berlin-6"
+   ],
+   "amounts": [
+    748,
+    849.33
+   ]
+  },
+  {
+   "query": {
+    "propertyTypes": [
+     "studio",
+     "room"
+    ],
+    "minRooms": 1,
+    "maxRooms": 1
+   },
+   "total": 9,
+   "ids": [
+    "demo-berlin-1",
+    "demo-london-1",
+    "demo-toronto-1",
+    "demo-berlin-3",
+    "demo-london-3",
+    "demo-toronto-3",
+    "demo-berlin-6",
+    "demo-london-6",
+    "demo-toronto-6"
+   ],
+   "amounts": [
+    748,
+    1670.4,
+    1020.5,
+    568,
+    1115.92,
+    734.5,
+    849.33,
+    1608.54,
+    1258.61
+   ]
+  },
+  {
+   "query": {
+    "amenities": [
+     "wifi",
+     "furnished"
+    ]
+   },
+   "total": 3,
+   "ids": [
+    "demo-london-4",
+    "demo-berlin-5",
+    "demo-berlin-6"
+   ],
+   "amounts": [
+    3435.92,
+    1440,
+    849.33
+   ]
+  },
+  {
+   "query": {
+    "city": "Toronto",
+    "neighborhood": "the annex",
+    "currency": "CAD"
+   },
+   "total": 4,
+   "ids": [
+    "demo-toronto-dup",
+    "demo-toronto-2",
+    "demo-toronto-4",
+    "demo-toronto-7"
+   ],
+   "amounts": [
+    3774,
+    3700,
+    2970,
+    5440
+   ]
+  }
+ ]
+}
